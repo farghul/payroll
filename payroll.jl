@@ -16,7 +16,7 @@ const MINWEEKS, MAXWEEKS = 0, 52;
 const MINWAGE, MINBASE, MAXRATE, MAXHOURS = 15.00, 400.00, 20.00, 70.00;
 const ZEROFLOAT, MINSALARY, MAXSALARY, LIMIT = 0.00, 24000.00, 480000.00, 9999999.99;
 const S, H, C, L = "Salaried", "Hourly", "Commissioned", "Line";
-const REPLPATH = "D:/bstui/Documents/Code/GitHub/Payroll/";
+const REPLPATH = "/Users/bstuike/Documents/GitHub/payroll/";
 
 canCreate(line::Int, type::String) = println("Line " * line * ": is a valid transaction. " * type * " employee " * fname * " was added")
 

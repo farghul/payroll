@@ -6,7 +6,7 @@ main:
 =#
 
 # To run the program in Julia REPL:
-# include("D:/bstui/Documents/Code/GitHub/Payroll/main.jl")
+# include("/Users/bstuike/Documents/Code/GitHub/Payroll/main.jl")
 
 include("payroll.jl")
 
